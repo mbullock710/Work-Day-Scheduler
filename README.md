@@ -22,7 +22,8 @@ THEN the saved events persist
 
 ## Screenshot of Webpage
 
-
+![_C__Users_MichaelBullock_bootcamp_Challenges_Word-Day-Scheduler_index html](https://github.com/mbullock710/Work-Day-Scheduler/assets/148500556/c0077231-3022-4b57-8134-8915379b9f86)
 
 ## Link to Deployed Application
 
+https://mbullock710.github.io/Work-Day-Scheduler/
