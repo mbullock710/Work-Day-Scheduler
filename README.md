@@ -2,7 +2,7 @@
 
 ## Description
 
-The objective of this assignment is to create a random password generator. The functionality of the password generator is executed through JavaScript code. Edits and additons to the JavaScript code were made by myself in order to meet the acceptance criteria below.
+The objective of this assignment is to create a calendar application that allows a user to save events for each hour of a typical working day (9am - 5pm). The functionality of the password generator is executed through JavaScript code. Edits and additons to the JavaScript code were made by myself in order to meet the acceptance criteria below.
 
 ```
 GIVEN I am using a daily planner to create a schedule
