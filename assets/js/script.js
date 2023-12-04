@@ -6,7 +6,7 @@ $(function () {
 
   // Adds listener for click events on the save button to save event time and event description in local storage
 
-  $('.btn').on('click', function () {
+  $('.saveBtn').on('click', function () {
 
     const eventTime = $(this).closest('.time-block').attr('id');
     const eventInput = $(this).siblings('.description').val();
@@ -15,7 +15,7 @@ $(function () {
 
   });
 
-  // Add code to apply the past, present, or future class to each time
+  // Adds code to apply the past, present, or future class to each time
   // block by comparing the id to the current hour.
 
   const currentHour = dayjs().hour();
@@ -35,9 +35,9 @@ $(function () {
     // Code to get any user input that was saved in localStorage and set
     // the values of the corresponding textarea elements
 
-    const getFromLocalStorage = localStorage.getItem(timeId)
-    if (getFromLocalStorage) {
-      $(this).find('textarea').val(getFromLocalStorage);
+    const savedInput = localStorage.getItem(timeId)
+    if (savedInput) {
+      $(this).find('textarea').val(savedInput);
     }
 
   });
